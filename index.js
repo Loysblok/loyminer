@@ -22,7 +22,6 @@ bot.once("spawn", () => {
 
 
 bot.on('chat', (username, message) => {
-    if (username == 'SarvarbekUZB')
     if (username == 'Phantom_')
   if (message == 'Kovla loy') {      // dignmadur
     continue_digging=true;
